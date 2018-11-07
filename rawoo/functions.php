@@ -8,9 +8,9 @@ add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
 
 function rawoo_enqueue_style() {
-	wp_enqueue_style( 'rawoo-style', get_stylesheet_uri());
 	wp_enqueue_style('css-fontawesome', get_template_directory_uri().'/node_modules/@fortawesome/fontawesome-free/css/all.css', false);
 	wp_enqueue_style('css-bootstrap', get_template_directory_uri().'/node_modules/bootstrap/dist/css/bootstrap.min.css', false);
+	wp_enqueue_style( 'rawoo-style', get_stylesheet_uri());
 }
 
 function rawoo_enqueue_script() {

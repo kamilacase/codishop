@@ -5,3 +5,76 @@ Description: Template WordPress
 Version: 0.0.1
 Tags: bootstrap
 */
+
+body {
+	background-image: url("http://s1.picswalls.com/wallpapers/2015/09/27/star-wars-background_102659274_273.jpeg");
+	background-size: cover;
+}
+
+main {
+	background-color: red;
+	margin: auto;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	margin-top: 2em;
+	padding-top: 2em;
+}
+
+#carouselExampleSlidesOnly {
+	background-color: black;
+	height: 600px;
+
+}
+
+.carousel-caption {
+	text-align: right;
+	position: absolute;
+	right: 15%;
+	bottom: 20px;
+	left: 15%;
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 150px;
+	color: #fff;
+}
+
+@font-face {
+	font-family: "star";
+	src: url("death-star.regular.otf");
+}
+
+.navbar-brand {
+	font-size: 4rem;
+	font-family: "star";
+	color: red;
+}
+
+.navbar {
+	background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/12/26/205430/9191b630aa6638c75ce93ac5f69c6f2c-700.jpg");
+	color : white;
+}
+
+nav {
+	text-align: center;
+}
+
+#carouselExampleSlidesOnly {
+	margin-top: 2rem;
+	max-width: 100%;
+}
+
+header {
+	background-color: red;
+}
+
+.headcontainer {
+	max-width: 80%;
+	margin: auto;
+}
+
+.carimg {
+	margin-left: 10rem;
+}
