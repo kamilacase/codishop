@@ -1,6 +1,7 @@
 <?php
 get_header();
 
+get_template_part('carousel');
 
 while ( have_posts() ) : the_post();
 
